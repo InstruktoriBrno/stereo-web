@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -31,9 +31,13 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
+    margin: 0 0 15px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.italic {
+    font-style: italic;
 }
 
 @media(min-width:768px) {
@@ -147,7 +151,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg.jpg) no-repeat 50% 30% scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,7 +161,7 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .intro .intro-body .brand-heading {
@@ -176,6 +180,10 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+    }
+
+    .intro .intro-body {
+        padding-top: 120px;
     }
 
     .intro .intro-body .intro-text {
@@ -281,7 +289,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
     .download-section {
