@@ -10,6 +10,8 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000000;
     background-color: #dddddd;
+    background-image: url('../img/background.png');
+    background-repeat: repeat;
 }
 
 html {
