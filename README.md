@@ -1,4 +1,4 @@
-# Stereo web
+# Stereo 2016 web
 
 Web pro víkendovku [Stereo](https://stereo.instruktori.cz/) organizovanou pod hlavičkou [Instruktorů Brno](https://www.instruktori.cz/).
 
